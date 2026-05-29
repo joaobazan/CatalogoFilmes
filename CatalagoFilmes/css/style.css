@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(245, 145, 245);
+}
+
+.card-filme {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-filme:houve {
+    transform: scale(1.03);
+}
+
+.card-filme img {
+    height: 400px;
+    object-fit: cover;
+}
